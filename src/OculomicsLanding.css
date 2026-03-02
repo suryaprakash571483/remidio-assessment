@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #0b1a2a;
+  color: white;
+}
+
+.nav button {
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
+/* SECTION */
+.section {
+  padding: 50px;
+  text-align: center;
+}
+
+/* CARDS */
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: #f0f0f0;
+}
+
+.card.active {
+  border: 2px solid blue;
+}
+
+/* STEP */
+.step {
+  margin: 20px 0;
+}
+
+/* FOOTER */
+.footer {
+  padding: 20px;
+  background: #0b1a2a;
+  color: white;
+  text-align: center;
+}
